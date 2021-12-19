@@ -1,0 +1,33 @@
+# byte-compiled / optimized / dll files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# vs code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+.history
+.ionide
+!.vscode/*.code-snippets
+
+# any yaml/json files containing sensitive info
+*.json
+*.yaml
+*.yml
+
+# any excel files that i've created for debugging
+*.xlsx
