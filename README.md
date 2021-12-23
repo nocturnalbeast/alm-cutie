@@ -27,11 +27,15 @@ Install them in your Python environment before you start using this tool.
 
 - **How do I use it?**
 
-  Create your `mapping.yaml` (or JSON) by checking your fields from within the ALM interface.
+  Install the required libraries mentioned in the *Requirements* section into your preferred Python environment.
 
-  Next, create a `preferences.yaml` (or JSON) by adding the necessary values (present in `class_def/preferences.py`) into it - This step is optional though.
+  Generate the default `preferences.yaml` file using the command `python cutie.py -g`.
 
-  Run the command `cutie.py` without any arguments to get help on how to provide these files as arguments to the script.
+  Customize the preferences file obtained to match your ALM and network environment.
+
+  Once done, run `python cutie.py` to get help on how to use the tool.
+
+  Example invocation for test plan export: `python cutie.py -p preferences.yaml -o output.xlsx`
 
 - **What's next? Moar features?**
 
